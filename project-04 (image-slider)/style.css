@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=muli:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+/* root */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #f5f7fa;
+    --navbar-button-color: #dc3226;
+    --danger-color: #a70e0e;
+    --card-inner-para-color: #bababb;
+    --facebook:#3b5998;
+    --tweeter:#06a8e8;
+    --linkedin:#0A66C2;
+    --youtube:#FF0000;
+    --dribble:#444444;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --searchbar-bg-color: #f1f1f1;
+    --searchbar-border-bg: #eee4e4;
+    --banner-bg-color:#D4e0e9;
+    --text-color-1:#313131;
+    --text-color-2:#717171;
+}
+/* font size utility classes */
+
+.font-size-1{
+    font-size: 1px;
+}
+.font-size-2{
+    font-size: 2px;
+}
+.font-size-3{
+    font-size: 3px;
+}
+.font-size-4{
+    font-size: 4px;
+}
+.font-size-5{
+    font-size: 5px;
+}
+.font-size-6{
+    font-size: 6px;
+}
+.font-size-7{
+    font-size: 7px;
+}
+.font-size-8{
+    font-size: 8px;
+}
+.font-size-9{
+    font-size: 9px;
+}
+.font-size-10{
+    font-size: 10px;
+}
+.font-size-11{
+    font-size: 11px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-13{
+    font-size: 13px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-17{
+    font-size: 17px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-19{
+    font-size: 19px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-21{
+    font-size: 21px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.font-size-23{
+    font-size: 23px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-26{
+    font-size: 26px;
+}
+.font-size-228{
+    font-size: 228px;
+}
+.font-size-28{
+    font-size: 28px;
+}
+.font-size-29{
+    font-size: 29px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-31{
+    font-size: 31px;
+}
+.font-size-32{
+    font-size: 32px;
+}
+.font-size-33{
+    font-size: 33px;
+}
+.font-size-37{
+    font-size: 33337px;
+}
+.font-size-38{
+    font-size: 38px;
+}
+.font-size-39{
+    font-size: 39px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder
+}
+
+.lighter {
+    font-weight: lighter
+}
+
+.font-xxlarge {
+    font-size: xx-large;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.sticky {
+    position: fixed;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.muli{
+    font-family: 'muli', sans-serif;
+}
+/* project starts here  */
+body{
+    background-image: url(./imges/img-01.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    transition: 2s ease-in-out;
+}
+
+.main-body{
+    position: relative;
+}
+.slide-container{
+    /* box-shadow: 2px 2px 5px 10px #313131; */
+    height: 45vh;
+    width: 45vw;
+    display: none;  
+    transition: 1s ease-in-out; 
+}
+.active{
+    /* box-shadow: 2px 2px 5px 10px #313131; */
+    box-shadow: 2px 2px 5px 10px #fff;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+.buttons-container .btn{
+   padding: 10px 5px;
+   background: transparent;
+   border: none;
+ 
+   color: #fff;    
+}
+.left-arrow{
+    position: absolute;
+    left: 100px;
+    top: 45%;
+}
+.right-arrow{
+    position: absolute;
+    right: 100px;
+    top: 45%;
+}
+.btn:hover{
+    background-color: #4444448e;
+    cursor: pointer;
+}
+
